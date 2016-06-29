@@ -24,5 +24,14 @@
 		<servlet-name>DruidStatView</servlet-name>
 		<url-pattern>/druid/*</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DBConnAction</servlet-name>
+		<servlet-class>com.mangocity.druid.action.DBConnAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DBConnAction</servlet-name>
+		<url-pattern>/db</url-pattern>
+	</servlet-mapping>
 
 </web-app>

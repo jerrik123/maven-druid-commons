@@ -1,0 +1,1 @@
+http://localhost:8080/maven-druid-commons/druid/datasource.html
